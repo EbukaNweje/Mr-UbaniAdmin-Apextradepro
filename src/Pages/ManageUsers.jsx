@@ -59,7 +59,7 @@ const ManageUsers = () => {
     // }
 
     const Verify = (id) => {
-            const url = `https://Apextradeprobackend.onrender.com/api/UserVerify/${id}`;
+            const url = `https://mr-ubani-back-end-apextradepro.vercel.app/api/UserVerify/${id}`;
             axios.patch(url)
                 .then((response) => {
                     console.log(response);
